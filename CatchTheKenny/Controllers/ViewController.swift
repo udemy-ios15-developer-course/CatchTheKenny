@@ -16,7 +16,5 @@ class ViewController: UIViewController {
         modelData.loadScores()
         modelData.saveScores()
     }
-
-
 }
 
