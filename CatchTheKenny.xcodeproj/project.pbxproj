@@ -13,6 +13,8 @@
 		E62F95EA28A9E14600D6FB4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E62F95E828A9E14600D6FB4D /* Main.storyboard */; };
 		E62F95EC28A9E14700D6FB4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E62F95EB28A9E14700D6FB4D /* Assets.xcassets */; };
 		E62F95EF28A9E14700D6FB4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E62F95ED28A9E14700D6FB4D /* LaunchScreen.storyboard */; };
+		E62F95F828A9E41700D6FB4D /* HighScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62F95F728A9E41700D6FB4D /* HighScore.swift */; };
+		E62F95FA28A9E4F900D6FB4D /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62F95F928A9E4F900D6FB4D /* ModelData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E62F95EB28A9E14700D6FB4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E62F95EE28A9E14700D6FB4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E62F95F028A9E14700D6FB4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E62F95F728A9E41700D6FB4D /* HighScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighScore.swift; sourceTree = "<group>"; };
+		E62F95F928A9E4F900D6FB4D /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		E62F95E128A9E14600D6FB4D /* CatchTheKenny */ = {
 			isa = PBXGroup;
 			children = (
+				E62F95F628A9E40100D6FB4D /* Models */,
 				E62F95E228A9E14600D6FB4D /* AppDelegate.swift */,
 				E62F95E428A9E14600D6FB4D /* SceneDelegate.swift */,
 				E62F95E628A9E14600D6FB4D /* ViewController.swift */,
@@ -65,6 +70,15 @@
 				E62F95F028A9E14700D6FB4D /* Info.plist */,
 			);
 			path = CatchTheKenny;
+			sourceTree = "<group>";
+		};
+		E62F95F628A9E40100D6FB4D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E62F95F928A9E4F900D6FB4D /* ModelData.swift */,
+				E62F95F728A9E41700D6FB4D /* HighScore.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +154,8 @@
 			files = (
 				E62F95E728A9E14600D6FB4D /* ViewController.swift in Sources */,
 				E62F95E328A9E14600D6FB4D /* AppDelegate.swift in Sources */,
+				E62F95FA28A9E4F900D6FB4D /* ModelData.swift in Sources */,
+				E62F95F828A9E41700D6FB4D /* HighScore.swift in Sources */,
 				E62F95E528A9E14600D6FB4D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
