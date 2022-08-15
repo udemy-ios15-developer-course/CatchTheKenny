@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qDR-Gd-Cbn">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -17,55 +17,55 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Catch the Kenny!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QJh-zh-mbY">
-                                <rect key="frame" x="20" y="20" width="335" height="53"/>
+                                <rect key="frame" x="20" y="64" width="335" height="53"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="44"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="High Scores" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6gj-RF-pds">
-                                <rect key="frame" x="20" y="93" width="335" height="21"/>
+                                <rect key="frame" x="20" y="137" width="335" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aNC-VV-c1E">
-                                <rect key="frame" x="20" y="134" width="335" height="21"/>
+                                <rect key="frame" x="20" y="178" width="335" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eYo-XT-6ze">
-                                <rect key="frame" x="20" y="216" width="335" height="21"/>
+                                <rect key="frame" x="20" y="260" width="335" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j29-bY-VKn">
-                                <rect key="frame" x="20" y="175" width="335" height="21"/>
+                                <rect key="frame" x="20" y="219" width="335" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fLe-Rp-D9w">
-                                <rect key="frame" x="20" y="257" width="335" height="21"/>
+                                <rect key="frame" x="20" y="301" width="335" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NQh-eh-tEg">
-                                <rect key="frame" x="20" y="298" width="335" height="21"/>
+                                <rect key="frame" x="20" y="342" width="335" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap the Kenny to Play" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="voZ-F7-T5j">
-                                <rect key="frame" x="20" y="354" width="335" height="21"/>
+                                <rect key="frame" x="20" y="398" width="335" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KPI-HR-hDT">
-                                <rect key="frame" x="142" y="395" width="75" height="75"/>
+                                <rect key="frame" x="142" y="439" width="75" height="75"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="75" id="9jZ-tX-ZF5"/>
                                     <constraint firstAttribute="width" constant="75" id="z9d-up-S4a"/>
@@ -102,6 +102,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aNC-VV-c1E" secondAttribute="trailing" constant="20" id="x9L-xo-4T7"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="UPS-8a-bXg"/>
                     <connections>
                         <outlet property="kenny" destination="KPI-HR-hDT" id="Ys1-C2-8g5"/>
                         <outlet property="score1" destination="aNC-VV-c1E" id="uHz-bV-dJL"/>
@@ -109,16 +110,17 @@
                         <outlet property="score3" destination="eYo-XT-6ze" id="C7W-vw-cXo"/>
                         <outlet property="score4" destination="fLe-Rp-D9w" id="FY7-7Z-l4e"/>
                         <outlet property="score5" destination="NQh-eh-tEg" id="Maz-MV-iGM"/>
+                        <segue destination="7fa-cN-EQR" kind="show" identifier="toPlayController" id="Gty-jq-d6g"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="138.40000000000001" y="137.18140929535232"/>
+            <point key="canvasLocation" x="1077.5999999999999" y="137.18140929535232"/>
         </scene>
-        <!--View Controller-->
+        <!--Play Controller-->
         <scene sceneID="Y9X-pQ-WQL">
             <objects>
-                <viewController id="7fa-cN-EQR" sceneMemberID="viewController">
+                <viewController id="7fa-cN-EQR" customClass="PlayController" customModule="CatchTheKenny" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Pfk-VS-PjB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -137,10 +139,11 @@
                             <constraint firstItem="4Jw-Wo-uOj" firstAttribute="centerX" secondItem="Pfk-VS-PjB" secondAttribute="centerX" id="od9-Po-Jyy"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="yAE-70-UHz"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4fx-Hw-Jy0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1058" y="136"/>
+            <point key="canvasLocation" x="1996" y="135.38230884557723"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="aOs-iZ-0gj">
@@ -167,7 +170,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c3c-Jw-4Eg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1919" y="136"/>
+            <point key="canvasLocation" x="2856.8000000000002" y="135.38230884557723"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="uh4-RC-EFO">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qDR-Gd-Cbn" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="9bk-qB-eaz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="jyM-6m-gws"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wbf-xO-4nE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138.40000000000001" y="137.18140929535232"/>
         </scene>
     </scenes>
     <resources>

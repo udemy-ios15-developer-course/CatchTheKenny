@@ -39,13 +39,14 @@ class ViewController: UIViewController {
         
         timer = Timer.scheduledTimer(timeInterval: 0.01, target: self, selector: #selector(moveKenny), userInfo: nil, repeats: true)
     }
-    
+        
     @objc
     private func startGame() {
         timer.invalidate()
         kenny.image = UIImage(named: "kenny_splat")
         kenny.frame.origin.x = position
         kenny.isUserInteractionEnabled = false
+        performSegue(withIdentifier: "toPlayController", sender: nil)
     }
     
     @objc

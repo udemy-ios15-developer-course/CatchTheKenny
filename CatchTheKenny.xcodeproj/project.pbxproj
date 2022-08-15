@@ -17,6 +17,7 @@
 		E62F95FA28A9E4F900D6FB4D /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62F95F928A9E4F900D6FB4D /* ModelData.swift */; };
 		E62F95FC28A9EC8A00D6FB4D /* LevelDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62F95FB28A9EC8A00D6FB4D /* LevelDetail.swift */; };
 		E62F960328A9EDEB00D6FB4D /* GameLevels in Resources */ = {isa = PBXBuildFile; fileRef = E62F960228A9EDEB00D6FB4D /* GameLevels */; };
+		E63A160528AA1D840002A175 /* PlayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63A160428AA1D840002A175 /* PlayController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		E62F95F928A9E4F900D6FB4D /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		E62F95FB28A9EC8A00D6FB4D /* LevelDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelDetail.swift; sourceTree = "<group>"; };
 		E62F960228A9EDEB00D6FB4D /* GameLevels */ = {isa = PBXFileReference; lastKnownFileType = text; path = GameLevels; sourceTree = "<group>"; };
+		E63A160428AA1D840002A175 /* PlayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				E62F95E628A9E14600D6FB4D /* ViewController.swift */,
+				E63A160428AA1D840002A175 /* PlayController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				E62F95FC28A9EC8A00D6FB4D /* LevelDetail.swift in Sources */,
 				E62F95E728A9E14600D6FB4D /* ViewController.swift in Sources */,
 				E62F95E328A9E14600D6FB4D /* AppDelegate.swift in Sources */,
+				E63A160528AA1D840002A175 /* PlayController.swift in Sources */,
 				E62F95FA28A9E4F900D6FB4D /* ModelData.swift in Sources */,
 				E62F95F828A9E41700D6FB4D /* HighScore.swift in Sources */,
 				E62F95E528A9E14600D6FB4D /* SceneDelegate.swift in Sources */,
