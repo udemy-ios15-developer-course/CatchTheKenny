@@ -7,8 +7,6 @@
 
 import Foundation
 
-
-
 struct HighScore: Codable {
     var initials: String
     var score: Int
