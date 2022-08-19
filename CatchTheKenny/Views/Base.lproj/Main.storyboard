@@ -159,7 +159,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jCx-RG-SG8">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="misses" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jCx-RG-SG8">
                                 <rect key="frame" x="304" y="63" width="55" height="14"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
                                 <nil key="textColor"/>
@@ -196,7 +196,9 @@
                     <navigationItem key="navigationItem" id="yAE-70-UHz"/>
                     <connections>
                         <outlet property="baseView" destination="txO-iP-AFv" id="udA-8u-uCa"/>
+                        <outlet property="hitCount" destination="E8E-r7-INl" id="z9f-A8-AMv"/>
                         <outlet property="kenny" destination="b1e-Pw-PXj" id="GN0-4C-1Hb"/>
+                        <outlet property="missCount" destination="gwI-9y-TxJ" id="Eb2-n5-GCj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4fx-Hw-Jy0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

@@ -30,14 +30,40 @@ class PlayController: UIViewController {
     private var rateY = 5
     private var dirX = 1
     private var dirY = -1
+    private var hit = 0
+    private var miss = 0
     
     @IBOutlet weak var baseView: UIView!
     @IBOutlet weak var kenny: UIImageView!
+    @IBOutlet weak var hitCount: UILabel!
+    @IBOutlet weak var missCount: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationController?.isNavigationBarHidden = true
+        var hitTap = UITapGestureRecognizer(target: self, action: #selector(kennyTap))
+        var missTab = UITapGestureRecognizer(target: self, action: #selector(viewTap))
+        kenny.addGestureRecognizer(hitTap)
+        kenny.isUserInteractionEnabled = true
+        baseView.addGestureRecognizer(missTab)
         timer = Timer.scheduledTimer(timeInterval: 0.01, target: self, selector: #selector(timerTick), userInfo: nil, repeats: true)
+    }
+    
+    @objc
+    private func kennyTap() {
+        hit += 1
+        hitCount.text = "\(hit)"
+        if Int.random(in: 1...2)%2 == 0 {
+            dirX *= -1
+        } else {
+            dirY *= -1
+        }
+    }
+    
+    @objc
+    private func viewTap() {
+        miss += 1
+        missCount.text = "\(miss)"
     }
     
     @objc
@@ -67,8 +93,8 @@ class PlayController: UIViewController {
             dirY *= -1
         }
         
-        rateX = Int.random(in: 1...10)
-        rateY = Int.random(in: 1...10)
+        rateX = Int.random(in: 1...3)
+        rateY = Int.random(in: 1...3)
         positionKenny(posX: posX, posY: posY)
     }
     
