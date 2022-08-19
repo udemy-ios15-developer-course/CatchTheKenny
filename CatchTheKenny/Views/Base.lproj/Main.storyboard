@@ -125,21 +125,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Play View" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Jw-Wo-uOj">
-                                <rect key="frame" x="151" y="323" width="73" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="txO-iP-AFv">
+                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bq5-Os-E5B"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="4Jw-Wo-uOj" firstAttribute="centerY" secondItem="Pfk-VS-PjB" secondAttribute="centerY" id="YY3-Ae-3a7"/>
-                            <constraint firstItem="4Jw-Wo-uOj" firstAttribute="centerX" secondItem="Pfk-VS-PjB" secondAttribute="centerX" id="od9-Po-Jyy"/>
+                            <constraint firstItem="txO-iP-AFv" firstAttribute="leading" secondItem="bq5-Os-E5B" secondAttribute="leading" id="JFe-bH-4Xu"/>
+                            <constraint firstItem="bq5-Os-E5B" firstAttribute="bottom" secondItem="txO-iP-AFv" secondAttribute="bottom" id="gKs-ee-Ms5"/>
+                            <constraint firstItem="bq5-Os-E5B" firstAttribute="trailing" secondItem="txO-iP-AFv" secondAttribute="trailing" id="rBN-0v-r9p"/>
+                            <constraint firstItem="txO-iP-AFv" firstAttribute="top" secondItem="bq5-Os-E5B" secondAttribute="top" id="xRV-k1-Sa9"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="yAE-70-UHz"/>
+                    <connections>
+                        <outlet property="baseView" destination="txO-iP-AFv" id="udA-8u-uCa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4fx-Hw-Jy0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

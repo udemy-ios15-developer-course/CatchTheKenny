@@ -4,20 +4,26 @@
         "level": 1,
         "speed": 1,
         "duration": 30,
-        "pattern": 0
+        "pattern": 0,
+        "size" : 1,
+        "misses": 1
     },
     {
         "id": 2,
         "level": 2,
         "speed": 2,
         "duration": 30,
-        "pattern": 0
+        "pattern": 0,
+        "size" : 1,
+        "misses": 1
     },
     {
         "id": 3,
         "level": 3,
         "speed": 3,
         "duration": 30,
-        "pattern": 0
+        "pattern": 0,
+        "size" : 1,
+        "misses": 1
     },
 ]
